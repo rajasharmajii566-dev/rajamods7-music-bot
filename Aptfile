@@ -1,0 +1,4 @@
+git
+ffmpeg
+build-essential
+libssl-dev

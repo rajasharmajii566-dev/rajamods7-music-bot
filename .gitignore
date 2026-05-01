@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# --- Secrets / env files ---
+.env
+.env.*
+!.env.example
+sample.env.local
+*.session
+*.session-journal
+
+# --- Bot runtime data ---
+downloads/
+cache/
+temp/
+*.log
+khushi_log.txt
+ytdl_smart_cache.json
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg
+.eggs/
+
+# --- Replit / monorepo specific (not needed in standalone repo) ---
+.replit
+.replit-artifact/
+package.json
+node_modules/
